@@ -27,7 +27,7 @@ export const Home = () => {
                    bg-[length:0%_100%] hover:bg-[length:100%_100%] 
                    bg-right bg-no-repeat 
                    transition-all duration-300 ease-out">
-                   Get Started
+                   Buy Coin
                 </button>
               </div>
             </div>
