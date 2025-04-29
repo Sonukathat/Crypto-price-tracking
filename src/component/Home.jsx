@@ -13,7 +13,7 @@ export const Home = () => {
               <p className='text-4xl text-center font-bold xl:text-6xl'>Explore Crypto Daily</p>
               <p className='font-medium text-sm text-center mt-4 sm:text-base lg:text-lg'>Crypto Currency Is A Form Of Virtual Currency</p>
               <div className='flex justify-center gap-4 mt-8'>
-                <button
+                <button onClick={handleStart}
                    className="relative overflow-hidden rounded-4xl w-28 h-8 xl:w-44 xl:h-12 bg-white
                    bg-gradient-to-r from-white to-amber-500 
                    bg-[length:0%_100%] hover:bg-[length:100%_100%] 
@@ -22,6 +22,7 @@ export const Home = () => {
                    Get Started
                 </button>
                 <button
+                   id='#coins'
                    className="relative overflow-hidden rounded-4xl w-28 h-8 xl:w-44 xl:h-12 bg-white
                    bg-gradient-to-l from-white to-amber-500 
                    bg-[length:0%_100%] hover:bg-[length:100%_100%] 
