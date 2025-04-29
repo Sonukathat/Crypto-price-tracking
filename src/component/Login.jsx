@@ -6,7 +6,7 @@ export const Login = () => {
   return (
     <>
       <div className="flex justify-center items-center h-screen bg-gradient-to-r from-blue-500 to-green-500">
-        <div className="h-[35rem] w-96 rounded-lg flex flex-col items-center justify-center gap-6 bg-white">
+        <div className="h-[32rem] w-72 rounded-lg flex flex-col items-center justify-center gap-6 bg-white">
           <div>
             <h1 className="text-3xl font-bold">Login</h1>
           </div>
